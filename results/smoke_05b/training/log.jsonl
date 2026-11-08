@@ -1,0 +1,2 @@
+{"step": 2, "train_tokens_seen": 224, "validation_nll": 11.108083455458932, "train_nll_since_validation": 12.75253447570971, "elapsed_seconds": 0.6191150509985164}
+{"step": 3, "train_tokens_seen": 256, "validation_nll": 10.74711851451708, "train_nll_since_validation": 10.644381292164326, "elapsed_seconds": 0.8245301629649475}

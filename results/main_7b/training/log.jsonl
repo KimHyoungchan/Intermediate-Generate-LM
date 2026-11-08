@@ -1,0 +1,9 @@
+{"step": 50, "train_tokens_seen": 111343, "validation_nll": 7.444250278071397, "train_nll_since_validation": 8.917624792360778, "elapsed_seconds": 302.2515003790031}
+{"step": 100, "train_tokens_seen": 223543, "validation_nll": 6.602834350412229, "train_nll_since_validation": 7.129197730033421, "elapsed_seconds": 607.2894813260064}
+{"step": 150, "train_tokens_seen": 335957, "validation_nll": 6.153787055997075, "train_nll_since_validation": 6.502513152399861, "elapsed_seconds": 912.8898259699927}
+{"step": 200, "train_tokens_seen": 448105, "validation_nll": 5.886503193492967, "train_nll_since_validation": 6.071042210291904, "elapsed_seconds": 1218.0432463500183}
+{"step": 250, "train_tokens_seen": 561425, "validation_nll": 5.704834981515348, "train_nll_since_validation": 5.866003545328444, "elapsed_seconds": 1525.3328029210097}
+{"step": 300, "train_tokens_seen": 674609, "validation_nll": 5.575685606896446, "train_nll_since_validation": 5.728052064129603, "elapsed_seconds": 1832.8920397880138}
+{"step": 350, "train_tokens_seen": 788049, "validation_nll": 5.480841551374868, "train_nll_since_validation": 5.514379572327944, "elapsed_seconds": 2141.141257322044}
+{"step": 400, "train_tokens_seen": 901168, "validation_nll": 5.4011497353354505, "train_nll_since_validation": 5.446304549453123, "elapsed_seconds": 2448.137320983049}
+{"step": 444, "train_tokens_seen": 1000000, "validation_nll": 5.345070264181467, "train_nll_since_validation": 5.3666856030085315, "elapsed_seconds": 2718.0758061840315}

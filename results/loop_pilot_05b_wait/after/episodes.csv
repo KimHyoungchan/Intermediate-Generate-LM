@@ -1,0 +1,2 @@
+episode_id,document_id,outcome,stop_reason,requested_targets,resolved_targets,unreached_targets,censored_targets,observed_wraps,wraps_to_completion,completion_wraps_lower_bound,max_observed_wraps_for_one_token,visited_blocks,confirmed_same_layer_injections,elapsed_seconds,last_target_index,repeated_state_observed
+95f9598f535c204d09e32317,test:40:a9bb181bc1f3,censored,user_interrupt,8,1,6,1,5269,,5269,5269,126469,1,184.23514058900764,1,False

@@ -1,0 +1,10 @@
+{
+  "config_hash": "df7546531cebc04aff11d69ff2cd5ce230681129e330c2511cf4cc67bbcb9787",
+  "routed_source_hash": "60393ab5acf22a3d6e58cbea0903ca7c17f929fc3c1a2d67fb7a5d27b4852265",
+  "common_hit_targets": 2,
+  "common_hit_visits_delta": 0.0,
+  "newly_resolved_targets": 0,
+  "lost_resolved_targets": 0,
+  "checkpoint_sha256": "d0c0684186d2c829f3dd1a2f4d45f9f74976e19e97b8fc8359ddf1f3863d1ab2",
+  "eval_data_sha256": "2c6333e837ad05a1bfb9cab6e6d20bd9773049228bcf99d3584267615f39c55c"
+}

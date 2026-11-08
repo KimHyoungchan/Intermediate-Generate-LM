@@ -1,0 +1,14 @@
+{"update": 32, "block_visits": 1033, "accepted_targets": 4, "validation_resolved_fraction": 0.09375, "validation_nll": 12.53674120150079, "elapsed_seconds": 6.731909224006813}
+{"update": 64, "block_visits": 2060, "accepted_targets": 9, "validation_resolved_fraction": 0.09375, "validation_nll": 12.985433050238335, "elapsed_seconds": 11.430434659996536}
+{"update": 96, "block_visits": 3089, "accepted_targets": 13, "validation_resolved_fraction": 0.09375, "validation_nll": 12.686926773539534, "elapsed_seconds": 16.28684808401158}
+{"update": 128, "block_visits": 4137, "accepted_targets": 18, "validation_resolved_fraction": 0.09375, "validation_nll": 12.450006903595424, "elapsed_seconds": 21.2866021390073}
+{"update": 160, "block_visits": 5173, "accepted_targets": 22, "validation_resolved_fraction": 0.109375, "validation_nll": 12.702282781786886, "elapsed_seconds": 26.119187593983952}
+{"update": 192, "block_visits": 6220, "accepted_targets": 28, "validation_resolved_fraction": 0.109375, "validation_nll": 12.439937652344197, "elapsed_seconds": 30.985468163969927}
+{"update": 224, "block_visits": 7263, "accepted_targets": 34, "validation_resolved_fraction": 0.140625, "validation_nll": 12.418035831069805, "elapsed_seconds": 36.14473115000874}
+{"update": 256, "block_visits": 8322, "accepted_targets": 42, "validation_resolved_fraction": 0.140625, "validation_nll": 12.019192927590911, "elapsed_seconds": 41.15266247600084}
+{"update": 288, "block_visits": 9367, "accepted_targets": 46, "validation_resolved_fraction": 0.109375, "validation_nll": 11.197666142123483, "elapsed_seconds": 45.97105737501988}
+{"update": 320, "block_visits": 10411, "accepted_targets": 49, "validation_resolved_fraction": 0.15625, "validation_nll": 12.447216508595636, "elapsed_seconds": 50.95507896901108}
+{"update": 352, "block_visits": 11451, "accepted_targets": 54, "validation_resolved_fraction": 0.109375, "validation_nll": 12.104982321807581, "elapsed_seconds": 55.77554142201552}
+{"update": 384, "block_visits": 12488, "accepted_targets": 61, "validation_resolved_fraction": 0.109375, "validation_nll": 11.333830223478659, "elapsed_seconds": 60.78775644797133}
+{"update": 416, "block_visits": 13533, "accepted_targets": 67, "validation_resolved_fraction": 0.109375, "validation_nll": 10.53851368376451, "elapsed_seconds": 65.60096586897271}
+{"update": 426, "block_visits": 13860, "accepted_targets": 69, "validation_resolved_fraction": 0.140625, "validation_nll": 11.009610020675906, "elapsed_seconds": 68.23625200201059}

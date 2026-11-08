@@ -1,0 +1,68 @@
+{
+  "dataset_id": "Salesforce/wikitext",
+  "dataset_config": "wikitext-2-raw-v1",
+  "dataset_revision": "b08601e04326c79dfdd32d625aee71d232d685c3",
+  "counting": "same article restoration as experiment; no added special tokens; token counts include headings/newlines; CUDA disabled",
+  "splits": {
+    "train": {
+      "original_text_rows": 36718,
+      "nonempty_text_rows": 23767,
+      "restored_documents": 629,
+      "whitespace_words": 2051910,
+      "tokenizers": {
+        "Qwen/Qwen2.5-0.5B-Instruct": {
+          "tokens": 2517232,
+          "available_targets_after_32_context_per_document": 2497434,
+          "available_nonoverlap_targets_with_32_context_and_8_targets": 2495336,
+          "special_token_occurrences": 0
+        },
+        "Qwen/Qwen2.5-7B-Instruct": {
+          "tokens": 2517232,
+          "available_targets_after_32_context_per_document": 2497434,
+          "available_nonoverlap_targets_with_32_context_and_8_targets": 2495336,
+          "special_token_occurrences": 0
+        }
+      }
+    },
+    "validation": {
+      "original_text_rows": 3760,
+      "nonempty_text_rows": 2461,
+      "restored_documents": 60,
+      "whitespace_words": 213886,
+      "tokenizers": {
+        "Qwen/Qwen2.5-0.5B-Instruct": {
+          "tokens": 262210,
+          "available_targets_after_32_context_per_document": 260290,
+          "available_nonoverlap_targets_with_32_context_and_8_targets": 260096,
+          "special_token_occurrences": 0
+        },
+        "Qwen/Qwen2.5-7B-Instruct": {
+          "tokens": 262210,
+          "available_targets_after_32_context_per_document": 260290,
+          "available_nonoverlap_targets_with_32_context_and_8_targets": 260096,
+          "special_token_occurrences": 0
+        }
+      }
+    },
+    "test": {
+      "original_text_rows": 4358,
+      "nonempty_text_rows": 2891,
+      "restored_documents": 62,
+      "whitespace_words": 241211,
+      "tokenizers": {
+        "Qwen/Qwen2.5-0.5B-Instruct": {
+          "tokens": 298938,
+          "available_targets_after_32_context_per_document": 296954,
+          "available_nonoverlap_targets_with_32_context_and_8_targets": 296736,
+          "special_token_occurrences": 0
+        },
+        "Qwen/Qwen2.5-7B-Instruct": {
+          "tokens": 298938,
+          "available_targets_after_32_context_per_document": 296954,
+          "available_nonoverlap_targets_with_32_context_and_8_targets": 296736,
+          "special_token_occurrences": 0
+        }
+      }
+    }
+  }
+}

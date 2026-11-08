@@ -1,0 +1,33 @@
+{
+  "config_hash": "7c8cf1ffefdd18070f06fac3944badc8a390573ec5a8612081e2b20ebde4e4f8",
+  "source_hash": "2edfdde4a283ae807163f240d5008d2391e17b31c14a39d4a55adc0d8c5e19e3",
+  "device": {
+    "physical_index": 2,
+    "uuid": "GPU-4f8fb1fe-e7c5-aad3-6f94-a16bee1178a0",
+    "logical_device": "cuda:0"
+  },
+  "versions": {
+    "torch": "2.11.0+cu128",
+    "transformers": "5.14.1",
+    "datasets": "5.0.1",
+    "numpy": "2.2.6",
+    "matplotlib": "3.10.9",
+    "PyYAML": "6.0.3",
+    "huggingface-hub": "1.25.1"
+  },
+  "loss": "mean reference next-token CE across all intermediate layers",
+  "initial_validation_nll": 11.788286501806901,
+  "best_validation_nll": 5.345070264181467,
+  "best_optimizer_step": 444,
+  "optimizer_steps": 444,
+  "train_tokens_seen": 1000000,
+  "epochs": 1,
+  "backbone_unchanged": true,
+  "trained_checkpoint_changed": true,
+  "backbone_sha256": "81806e3b78bc47229c45cd748867a02bb899329c260b77bedb49e6e4a2916ee5",
+  "adapter_parameters": 12483072,
+  "checkpoint_sha256": "0dcb1458a17ef3a3ed3def50a684b9cc61c0c1cfb405fb22b81780773544e161",
+  "elapsed_seconds": 2732.9053818820394,
+  "peak_cuda_allocated_bytes": 15807226368,
+  "resume_policy": "skip completed stages; incomplete training restarts from identity"
+}

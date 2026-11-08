@@ -1,0 +1,60 @@
+{
+  "selected_episodes": 1,
+  "profiled_episodes": 1,
+  "unstarted_episodes": 0,
+  "completed_episodes": 0,
+  "censored_episodes": 1,
+  "completion_fraction": 0.0,
+  "mean_wraps_to_completion_completed_only": null,
+  "max_wraps_to_completion_completed_only": null,
+  "resolved_targets": 1,
+  "attempted_targets": 2,
+  "mean_token_wraps_hit_only": 0.0,
+  "max_observed_wraps_for_one_token": 27,
+  "total_observed_wraps": 27,
+  "total_visited_blocks": 778,
+  "state_repeat_episodes": 0,
+  "per_token_visit_limit": null,
+  "loop_definition": "one actually observed L-to-1 transition for the same target token",
+  "incomplete_semantics": "right-censored; required loops unknown; observed count is a lower bound",
+  "config_hash": "d3f9ad94a58cb16b0f97d62876de2a7c3e42302a583fbb39f112e2a695ccadca",
+  "loop_pilot_source_hash": "bb9a705f2db2c20d79c390e59414c6b2c267ab25adcab88753b52ec6d7da309f",
+  "condition": "after",
+  "model_id": "Qwen/Qwen2.5-7B-Instruct",
+  "condition_finished": true,
+  "source_experiment_config": "/home/hyoungchan38/layerwise-lm-experiments/configs/routed_7b_v96.yaml",
+  "training_visit_budget": 96,
+  "evaluation_per_token_visit_budget": null,
+  "selection": {
+    "episode_ids": [
+      "95f9598f535c204d09e32317"
+    ],
+    "test_sha256": "0dd03bbac17444c7d00cb52ad96f05566b677f56cad8cdeb1a3b8bbf35ce76fc",
+    "targets_sha256": "c2ded8d1686426c85fd1ca7c90dc7cfd0f54d857d14123cc90353e0ad7fbdd1c"
+  },
+  "requested_targets_selected": 8,
+  "requested_targets_profiled": 8,
+  "checkpoint_sha256": "2eb38d877c328f849e22b435e8362b355fcc5e7bfc738b13d48916c85cf8005c",
+  "frozen_hash": "a5e74e208bfa22a0f03785aa67870f45fcd5bfe0a50455d28c9866a14fd6d564",
+  "max_seconds_per_episode": 2.0,
+  "max_total_visits_per_episode": 0,
+  "device": {
+    "physical_index": 3,
+    "uuid": "GPU-760bf631-f8cc-ccc4-3350-5f6d4379dbe5",
+    "logical_device": "cuda:0"
+  },
+  "versions": {
+    "torch": "2.11.0+cu128",
+    "transformers": "5.14.1",
+    "datasets": "5.0.1",
+    "numpy": "2.2.6",
+    "matplotlib": "3.10.9",
+    "PyYAML": "6.0.3",
+    "huggingface-hub": "1.25.1"
+  },
+  "episodes_sha256": "0c34018bffd6826453d34dbe71d6bed4e54106ea3bf11091150d5871694f88d5",
+  "tokens_sha256": "4b52a5962e343c90e61ec7cfa3ad8a88f1706c43cc6daa498968b15512adbf06",
+  "routing": "oracle; actual same-layer insertion and state-carrying wrap",
+  "retraining": false,
+  "state_repeat_policy": "last 4096 distinct wrap-boundary states of current token; observation only; never an early-stop criterion"
+}

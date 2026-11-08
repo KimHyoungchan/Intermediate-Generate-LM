@@ -1,0 +1,22 @@
+model_id: Qwen/Qwen2.5-7B-Instruct
+model_revision: a09a35458c702b33eeacc393d103063234e8bc28
+local_model_only: true
+dataset_revision: b08601e04326c79dfdd32d625aee71d232d685c3
+output_dir: runs/training_parallel_smoke_7b
+training_gpus: [1, 2, 3]
+seed: 42
+context_tokens: 8
+continuation_tokens: 3
+train_episodes: 7
+validation_episodes: 2
+eval_episodes: 2
+rank: 8
+learning_rate: 0.0001
+epochs: 2
+bptt_visits: 0
+accumulation_visits: 256
+eval_every_updates: 2
+max_visits_per_token: null
+label_mode: next_token
+iteration_policy: global
+trace_training: true

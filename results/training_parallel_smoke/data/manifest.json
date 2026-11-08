@@ -1,0 +1,30 @@
+{
+  "config_hash": "473d8077c26ef5ef24b52cdafe5446b9a69c63f1549857959016d320eccd6ed9",
+  "routed_source_hash": "60393ab5acf22a3d6e58cbea0903ca7c17f929fc3c1a2d67fb7a5d27b4852265",
+  "dataset_id": "Salesforce/wikitext",
+  "dataset_revision": "b08601e04326c79dfdd32d625aee71d232d685c3",
+  "sampling": "document-balanced cyclic selection; random offsets; no duplicate target positions within split",
+  "splits": {
+    "train": {
+      "episodes": 7,
+      "requested_target_tokens": 21,
+      "documents": 7,
+      "sha256": "ea099020455887fec775faa92ef2862f2c072ba14acb368f75ed753e42c94d79",
+      "fingerprint": "5d4fb603254a7a5b"
+    },
+    "validation": {
+      "episodes": 2,
+      "requested_target_tokens": 6,
+      "documents": 2,
+      "sha256": "1055c016f1dd9e4c11c4565acc1dd0d6df2e3d0329c48728448899b292c7abaf",
+      "fingerprint": "51d84d52d095f90d"
+    },
+    "test": {
+      "episodes": 2,
+      "requested_target_tokens": 6,
+      "documents": 2,
+      "sha256": "a9ffcfe0f4b9fa2df65a9f03538ceccaf120673340dbf06b14e4db412982c100",
+      "fingerprint": "a46124b21ac53738"
+    }
+  }
+}

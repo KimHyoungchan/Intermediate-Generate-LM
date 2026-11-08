@@ -1,0 +1,8 @@
+metric,before,after,delta
+processed_targets,6,6,0
+unforced_hits,1,1,0
+forced_targets,5,5,0
+unforced_hit_fraction,0.16666666666666666,0.16666666666666666,0.0
+all_correct_without_forcing_fraction,0.0,0.0,0.0
+visited_blocks,169,169,0
+mean_ce_per_visited_block,11.160721512117352,11.053293061045897,-0.10742845107145449

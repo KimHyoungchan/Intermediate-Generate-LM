@@ -1,0 +1,33 @@
+{
+  "config_hash": "7c8cf1ffefdd18070f06fac3944badc8a390573ec5a8612081e2b20ebde4e4f8",
+  "source_hash": "2edfdde4a283ae807163f240d5008d2391e17b31c14a39d4a55adc0d8c5e19e3",
+  "dataset_revision": "b08601e04326c79dfdd32d625aee71d232d685c3",
+  "dataset_fingerprint": {
+    "train": "5d4fb603254a7a5b",
+    "validation": "51d84d52d095f90d",
+    "test": "a46124b21ac53738"
+  },
+  "eval_source_split": "test",
+  "splits": {
+    "train": {
+      "tokens": 1000000,
+      "windows": 2360,
+      "documents": 261,
+      "sha256": "6c097692a64a5d9c0b87f51fa214bbaca3ac3aa07748c35881dcdefb03efd2ca"
+    },
+    "validation": {
+      "tokens": 8192,
+      "windows": 19,
+      "documents": 2,
+      "sha256": "0645772d15d68fc2158b86aec38090a09cb37212c8fa55c2fbde1f85c9eb880b"
+    },
+    "evaluation": {
+      "tokens": 100000,
+      "windows": 235,
+      "documents": 21,
+      "sha256": "bb1cd28c3986577b0dc63f206adb6ea19a6fb3b36deaa0dd350e7e617e315dfa"
+    }
+  },
+  "tokenizer_revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+  "special_token_policy": "no added special tokens; exclude special targets"
+}

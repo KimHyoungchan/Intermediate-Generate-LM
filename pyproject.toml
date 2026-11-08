@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "layerwise-lm"
+version = "0.1.0"
+description = "Paired layerwise next-token evaluation before and after readout training"
+requires-python = ">=3.10"
+dependencies = ["torch>=2.6", "transformers>=4.51,<6", "accelerate>=1.0", "datasets>=3,<6", "numpy>=1.26", "matplotlib>=3.8", "PyYAML>=6", "huggingface-hub>=0.30"]
+
+[tool.setuptools.packages.find]
+where = ["src"]

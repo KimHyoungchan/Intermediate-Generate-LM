@@ -1,0 +1,27 @@
+model_id: Qwen/Qwen2.5-7B-Instruct
+model_revision: a09a35458c702b33eeacc393d103063234e8bc28
+local_model_only: true
+mode: teacher_forced
+dataset_id: Salesforce/wikitext
+dataset_config: wikitext-2-raw-v1
+eval_split: validation
+output_dir: runs/smoke_7b
+seed: 42
+batch_size: 1
+seq_len: 64
+context_overlap: 16
+projection_chunk_tokens: 16
+top_k: 5
+train_tokens: 64
+validation_tokens: 16
+eval_tokens: 32
+adapter:
+  kind: low_rank
+  rank: 64
+learning_rate: 0.0001
+weight_decay: 0.0
+gradient_accumulation_tokens: 64
+max_grad_norm: 1.0
+epochs: 1
+eval_every_steps: 1
+bootstrap_draws: 200

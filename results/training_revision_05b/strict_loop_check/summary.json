@@ -1,0 +1,128 @@
+{
+  "config_hash": "40859b237f4d51e846d30855a00a7f1c09b7f8c326ab8be1ec58bf267497b9b3",
+  "loop_pilot_source_hash": "eb16ebb578eea089e85b0481096e4aa7d64d4cee473016529bb63073c2dd4f51",
+  "conditions": {
+    "before": {
+      "selected_episodes": 2,
+      "profiled_episodes": 2,
+      "unstarted_episodes": 0,
+      "completed_episodes": 0,
+      "censored_episodes": 2,
+      "completion_fraction": 0.0,
+      "mean_wraps_to_completion_completed_only": null,
+      "max_wraps_to_completion_completed_only": null,
+      "resolved_targets": 1,
+      "attempted_targets": 3,
+      "mean_token_wraps_hit_only": 0.0,
+      "max_observed_wraps_for_one_token": 145,
+      "total_observed_wraps": 272,
+      "total_visited_blocks": 6546,
+      "state_repeat_episodes": 0,
+      "per_token_visit_limit": null,
+      "loop_definition": "one actually observed L-to-1 transition for the same target token",
+      "incomplete_semantics": "right-censored; required loops unknown; observed count is a lower bound",
+      "config_hash": "40859b237f4d51e846d30855a00a7f1c09b7f8c326ab8be1ec58bf267497b9b3",
+      "loop_pilot_source_hash": "eb16ebb578eea089e85b0481096e4aa7d64d4cee473016529bb63073c2dd4f51",
+      "condition": "before",
+      "model_id": "Qwen/Qwen2.5-0.5B-Instruct",
+      "condition_finished": true,
+      "source_experiment_config": "/home/hyoungchan38/layerwise-lm-experiments/runs/training_revision_05b/resolved_config.yaml",
+      "training_visit_budget": null,
+      "evaluation_per_token_visit_budget": null,
+      "selection": {
+        "episode_ids": [
+          "95f9598f535c204d09e32317",
+          "4dbe23279f6eca81f9539201"
+        ],
+        "test_sha256": "0dd03bbac17444c7d00cb52ad96f05566b677f56cad8cdeb1a3b8bbf35ce76fc",
+        "targets_sha256": "b6601ac7d79b0c99beba146b88a29cd7967c81d03aaa5b0b4f17afea7beb8762"
+      },
+      "requested_targets_selected": 16,
+      "requested_targets_profiled": 16,
+      "checkpoint_sha256": null,
+      "frozen_hash": "2b3cf5be6b8d355ba45f7ebef0a78afa2ce1462c5d4597af4d1637f76ceefa2f",
+      "max_seconds_per_episode": 5.0,
+      "max_total_visits_per_episode": 0,
+      "device": {
+        "physical_index": 1,
+        "uuid": "GPU-6068f209-96d6-139d-80fb-7db74591f8b4",
+        "logical_device": "cuda:0"
+      },
+      "versions": {
+        "torch": "2.11.0+cu128",
+        "transformers": "5.14.1",
+        "datasets": "5.0.1",
+        "numpy": "2.2.6",
+        "matplotlib": "3.10.9",
+        "PyYAML": "6.0.3",
+        "huggingface-hub": "1.25.1"
+      },
+      "episodes_sha256": "c5c35f7c2a3f1224d12ab11261a245fc50fd2da88acac4a2700addc69ca5c1d4",
+      "tokens_sha256": "78cac4ea29671705796c34dd4cdbcafecd65b64d58a78ff555e051e94a829e28",
+      "routing": "oracle; actual same-layer insertion and state-carrying wrap",
+      "retraining": false,
+      "state_repeat_policy": "last 4096 distinct wrap-boundary states of current token; observation only; never an early-stop criterion"
+    },
+    "after": {
+      "selected_episodes": 2,
+      "profiled_episodes": 2,
+      "unstarted_episodes": 0,
+      "completed_episodes": 0,
+      "censored_episodes": 2,
+      "completion_fraction": 0.0,
+      "mean_wraps_to_completion_completed_only": null,
+      "max_wraps_to_completion_completed_only": null,
+      "resolved_targets": 1,
+      "attempted_targets": 3,
+      "mean_token_wraps_hit_only": 0.0,
+      "max_observed_wraps_for_one_token": 146,
+      "total_observed_wraps": 291,
+      "total_visited_blocks": 7021,
+      "state_repeat_episodes": 0,
+      "per_token_visit_limit": null,
+      "loop_definition": "one actually observed L-to-1 transition for the same target token",
+      "incomplete_semantics": "right-censored; required loops unknown; observed count is a lower bound",
+      "config_hash": "40859b237f4d51e846d30855a00a7f1c09b7f8c326ab8be1ec58bf267497b9b3",
+      "loop_pilot_source_hash": "eb16ebb578eea089e85b0481096e4aa7d64d4cee473016529bb63073c2dd4f51",
+      "condition": "after",
+      "model_id": "Qwen/Qwen2.5-0.5B-Instruct",
+      "condition_finished": true,
+      "source_experiment_config": "/home/hyoungchan38/layerwise-lm-experiments/runs/training_revision_05b/resolved_config.yaml",
+      "training_visit_budget": null,
+      "evaluation_per_token_visit_budget": null,
+      "selection": {
+        "episode_ids": [
+          "95f9598f535c204d09e32317",
+          "4dbe23279f6eca81f9539201"
+        ],
+        "test_sha256": "0dd03bbac17444c7d00cb52ad96f05566b677f56cad8cdeb1a3b8bbf35ce76fc",
+        "targets_sha256": "b6601ac7d79b0c99beba146b88a29cd7967c81d03aaa5b0b4f17afea7beb8762"
+      },
+      "requested_targets_selected": 16,
+      "requested_targets_profiled": 16,
+      "checkpoint_sha256": "b93f9526d044346b6faa81c683ee2d5a37195a87cb5253c84bfd67c308bc29b3",
+      "frozen_hash": "2b3cf5be6b8d355ba45f7ebef0a78afa2ce1462c5d4597af4d1637f76ceefa2f",
+      "max_seconds_per_episode": 5.0,
+      "max_total_visits_per_episode": 0,
+      "device": {
+        "physical_index": 1,
+        "uuid": "GPU-6068f209-96d6-139d-80fb-7db74591f8b4",
+        "logical_device": "cuda:0"
+      },
+      "versions": {
+        "torch": "2.11.0+cu128",
+        "transformers": "5.14.1",
+        "datasets": "5.0.1",
+        "numpy": "2.2.6",
+        "matplotlib": "3.10.9",
+        "PyYAML": "6.0.3",
+        "huggingface-hub": "1.25.1"
+      },
+      "episodes_sha256": "3f6a755a987ec08da8ef70a9d47430a34029c6a2dc18e72a053fdcb163b4db5a",
+      "tokens_sha256": "a7de2d716069e2f1bfbd4ca6467da087ea6754f75e36257c88bbf8804d7f28d3",
+      "routing": "oracle; actual same-layer insertion and state-carrying wrap",
+      "retraining": false,
+      "state_repeat_policy": "last 4096 distinct wrap-boundary states of current token; observation only; never an early-stop criterion"
+    }
+  }
+}

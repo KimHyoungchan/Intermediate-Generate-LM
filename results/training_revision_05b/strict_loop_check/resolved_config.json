@@ -1,0 +1,21 @@
+{
+  "config_hash": "40859b237f4d51e846d30855a00a7f1c09b7f8c326ab8be1ec58bf267497b9b3",
+  "loop_pilot_source_hash": "eb16ebb578eea089e85b0481096e4aa7d64d4cee473016529bb63073c2dd4f51",
+  "config": {
+    "source_experiment_config": "runs/training_revision_05b/resolved_config.yaml",
+    "output_dir": "runs/training_revision_05b/strict_loop_check",
+    "episodes": 2,
+    "max_seconds_per_episode": 5.0,
+    "max_total_visits_per_episode": 0,
+    "log_every_wraps": 32,
+    "observe_repeated_states": true
+  },
+  "selection": {
+    "episode_ids": [
+      "95f9598f535c204d09e32317",
+      "4dbe23279f6eca81f9539201"
+    ],
+    "test_sha256": "0dd03bbac17444c7d00cb52ad96f05566b677f56cad8cdeb1a3b8bbf35ce76fc",
+    "targets_sha256": "b6601ac7d79b0c99beba146b88a29cd7967c81d03aaa5b0b4f17afea7beb8762"
+  }
+}

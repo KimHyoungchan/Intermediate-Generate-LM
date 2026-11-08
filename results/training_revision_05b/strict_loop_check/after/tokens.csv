@@ -1,0 +1,17 @@
+episode_id,target_index,target_id,status,visits,wraps,start_layer,exit_layer,first_repeated_state_wrap,observed_state_repeats
+95f9598f535c204d09e32317,0,659,hit,23,0,1,23,,0
+95f9598f535c204d09e32317,1,1084,censored,3475,145,23,,,0
+95f9598f535c204d09e32317,2,14521,unreached,0,0,,,,0
+95f9598f535c204d09e32317,3,279,unreached,0,0,,,,0
+95f9598f535c204d09e32317,4,18494,unreached,0,0,,,,0
+95f9598f535c204d09e32317,5,13348,unreached,0,0,,,,0
+95f9598f535c204d09e32317,6,315,unreached,0,0,,,,0
+95f9598f535c204d09e32317,7,350,unreached,0,0,,,,0
+4dbe23279f6eca81f9539201,0,311,censored,3523,146,1,,,0
+4dbe23279f6eca81f9539201,1,279,unreached,0,0,,,,0
+4dbe23279f6eca81f9539201,2,10984,unreached,0,0,,,,0
+4dbe23279f6eca81f9539201,3,315,unreached,0,0,,,,0
+4dbe23279f6eca81f9539201,4,6323,unreached,0,0,,,,0
+4dbe23279f6eca81f9539201,5,323,unreached,0,0,,,,0
+4dbe23279f6eca81f9539201,6,13772,unreached,0,0,,,,0
+4dbe23279f6eca81f9539201,7,62232,unreached,0,0,,,,0

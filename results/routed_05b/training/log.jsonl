@@ -1,0 +1,8 @@
+{"update": 32, "block_visits": 1037, "accepted_targets": 8, "validation_resolved_fraction": 0.09375, "validation_nll": 13.18320181546825, "elapsed_seconds": 5.898920854029711}
+{"update": 64, "block_visits": 2080, "accepted_targets": 16, "validation_resolved_fraction": 0.09375, "validation_nll": 12.766303090883953, "elapsed_seconds": 10.23948092298815}
+{"update": 96, "block_visits": 3133, "accepted_targets": 24, "validation_resolved_fraction": 0.09375, "validation_nll": 12.819620394801525, "elapsed_seconds": 14.61977231601486}
+{"update": 128, "block_visits": 4200, "accepted_targets": 34, "validation_resolved_fraction": 0.109375, "validation_nll": 13.063440836392916, "elapsed_seconds": 19.148970392008778}
+{"update": 160, "block_visits": 5264, "accepted_targets": 44, "validation_resolved_fraction": 0.109375, "validation_nll": 12.85048297018959, "elapsed_seconds": 23.641499268996995}
+{"update": 192, "block_visits": 6324, "accepted_targets": 51, "validation_resolved_fraction": 0.109375, "validation_nll": 12.494158524160202, "elapsed_seconds": 28.168070708983578}
+{"update": 224, "block_visits": 7378, "accepted_targets": 63, "validation_resolved_fraction": 0.109375, "validation_nll": 12.28556715219007, "elapsed_seconds": 32.546233548026066}
+{"update": 228, "block_visits": 7482, "accepted_targets": 64, "validation_resolved_fraction": 0.109375, "validation_nll": 12.28608197358532, "elapsed_seconds": 33.76576797501184}

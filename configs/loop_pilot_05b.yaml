@@ -1,0 +1,7 @@
+source_experiment_config: configs/routed_05b_v96.yaml
+output_dir: runs/loop_pilot_05b
+episodes: 4
+max_seconds_per_episode: 60
+max_total_visits_per_episode: 0
+log_every_wraps: 32
+observe_repeated_states: true

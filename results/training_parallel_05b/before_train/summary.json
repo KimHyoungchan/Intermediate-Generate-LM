@@ -1,0 +1,29 @@
+{
+  "requested_targets": 8192,
+  "processed_targets": 8192,
+  "unreached_targets": 0,
+  "unforced_hits": 651,
+  "forced_targets": 7541,
+  "unforced_hit_fraction": 0.0794677734375,
+  "all_correct_without_forcing_fraction": 0.0,
+  "visited_blocks": 197146,
+  "mean_ce_per_visited_block": 14.824491913256573,
+  "label_mode": "next_token",
+  "iteration_policy": "global",
+  "teacher_forcing": "After iteration exhaustion, supply the correct next input and continue at layer 1",
+  "completion_semantics": "Processing all labels is not counted as correct free generation",
+  "config_hash": "f7b94a1cd42ced6652ae7a70116e3e935be69195ea7ffb0e00fe5a56fb7f1af0",
+  "routed_source_hash": "60393ab5acf22a3d6e58cbea0903ca7c17f929fc3c1a2d67fb7a5d27b4852265",
+  "training_revision_source_hash": "464b24b3f4c4c0ca2fa6bfb46abbe30ba6a9297abc3986f4bd15060d3f7e0810",
+  "device": {
+    "physical_index": 1,
+    "uuid": "GPU-6068f209-96d6-139d-80fb-7db74591f8b4",
+    "logical_device": "cuda:0"
+  },
+  "model_id": "Qwen/Qwen2.5-0.5B-Instruct",
+  "frozen_hash": "2b3cf5be6b8d355ba45f7ebef0a78afa2ce1462c5d4597af4d1637f76ceefa2f",
+  "checkpoint_sha256": null,
+  "eval_data_sha256": "7ae1d4c1b98bd71bfabf0e65ba40c9af2de7cc515a67c38d0edb5371acf4d4c2",
+  "elapsed_seconds": 307.8445450399886,
+  "condition": "before"
+}

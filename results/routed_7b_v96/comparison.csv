@@ -1,0 +1,13 @@
+metric,before,after,delta
+resolved_requested_fraction,0.078125,0.0859375,0.0078125
+episode_completion_fraction,0.0,0.0,0.0
+resolved_targets,10,11,1
+failed_targets,16,16,0
+unreached_targets,102,101,-1
+same_layer_token_injections,10,11,1
+wrap_transitions,59,59,0
+mean_visits_per_hit,29.5,27.0,-2.5
+mean_exit_layer_given_hit,26.4,23.90909090909091,-2.4909090909090885
+decode_visits_per_resolved_target_including_failures,183.1,166.63636363636363,-16.46363636363637
+mean_nll_per_visited_block,14.13101467641924,10.930351879285618,-3.200662797133621
+decode_block_visits,1831,1833,2

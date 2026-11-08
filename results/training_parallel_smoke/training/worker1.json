@@ -1,0 +1,21 @@
+{
+  "config_hash": "473d8077c26ef5ef24b52cdafe5446b9a69c63f1549857959016d320eccd6ed9",
+  "routed_source_hash": "60393ab5acf22a3d6e58cbea0903ca7c17f929fc3c1a2d67fb7a5d27b4852265",
+  "training_revision_source_hash": "464b24b3f4c4c0ca2fa6bfb46abbe30ba6a9297abc3986f4bd15060d3f7e0810",
+  "parallel_training_source_hash": "a2684a0f3ba7e650b809accdb4d6ab67dd0b2c40ef564745a00930145ab41fdb",
+  "rank": 1,
+  "device": {
+    "physical_index": 2,
+    "uuid": "GPU-4f8fb1fe-e7c5-aad3-6f94-a16bee1178a0",
+    "logical_device": "cuda:0"
+  },
+  "processed_targets": 12,
+  "episodes": 4,
+  "visited_blocks": 289,
+  "unforced_hits": 1,
+  "forced_targets": 11,
+  "final_parameter_hash": "ebde3ef87041df96678779680669f3c25640cf75914f537b35fcb9a477ed4b93",
+  "coverage_sha256": "e6b8e5ad1a2900851e986fe665ea009678fc5388b2f79f0ff343f1a8278288d1",
+  "peak_cuda_allocated_bytes": 1067236352,
+  "trace_sha256": "5ec507e60a1c6da0ee37fe935435e3f6c51c9653d4e2e8efce4e827286a74ce6"
+}

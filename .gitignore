@@ -1,0 +1,32 @@
+# Runtime outputs and local environments
+/runs/
+/checkpoints/
+/datasets/
+/.cache/
+/.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.DS_Store
+
+# Weights, raw arrays, detailed traces and tokenized data
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.bin
+*.onnx
+*.npz
+*.npy
+*.jsonl
+!results/**/training/log.jsonl
+
+# Local authentication and editor state
+.env
+.env.*
+*.pem
+*.key
+.idea/
+.vscode/

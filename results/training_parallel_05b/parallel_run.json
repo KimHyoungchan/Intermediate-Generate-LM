@@ -1,0 +1,12 @@
+{
+  "config_hash": "f7b94a1cd42ced6652ae7a70116e3e935be69195ea7ffb0e00fe5a56fb7f1af0",
+  "routed_source_hash": "60393ab5acf22a3d6e58cbea0903ca7c17f929fc3c1a2d67fb7a5d27b4852265",
+  "training_revision_source_hash": "464b24b3f4c4c0ca2fa6bfb46abbe30ba6a9297abc3986f4bd15060d3f7e0810",
+  "parallel_training_source_hash": "a2684a0f3ba7e650b809accdb4d6ab67dd0b2c40ef564745a00930145ab41fdb",
+  "training_gpus": [
+    1,
+    2,
+    3
+  ],
+  "strategy": "synchronous data parallel; visit-weighted all-reduce; no episode padding"
+}

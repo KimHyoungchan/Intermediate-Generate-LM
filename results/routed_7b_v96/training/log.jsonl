@@ -1,0 +1,15 @@
+{"update": 32, "block_visits": 1032, "accepted_targets": 6, "validation_resolved_fraction": 0.109375, "validation_nll": 12.450518066930616, "elapsed_seconds": 10.784195590007585}
+{"update": 64, "block_visits": 2070, "accepted_targets": 15, "validation_resolved_fraction": 0.109375, "validation_nll": 11.201374719766696, "elapsed_seconds": 18.486401085043326}
+{"update": 96, "block_visits": 3100, "accepted_targets": 19, "validation_resolved_fraction": 0.109375, "validation_nll": 10.707804901011981, "elapsed_seconds": 26.24503440601984}
+{"update": 128, "block_visits": 4130, "accepted_targets": 28, "validation_resolved_fraction": 0.125, "validation_nll": 10.595541743920151, "elapsed_seconds": 34.02470343204914}
+{"update": 160, "block_visits": 5160, "accepted_targets": 32, "validation_resolved_fraction": 0.125, "validation_nll": 10.38408754460092, "elapsed_seconds": 41.755179427040275}
+{"update": 192, "block_visits": 6194, "accepted_targets": 43, "validation_resolved_fraction": 0.125, "validation_nll": 10.090212507067447, "elapsed_seconds": 49.50669790705433}
+{"update": 224, "block_visits": 7230, "accepted_targets": 53, "validation_resolved_fraction": 0.125, "validation_nll": 10.130987047398639, "elapsed_seconds": 57.217293775000144}
+{"update": 256, "block_visits": 8262, "accepted_targets": 57, "validation_resolved_fraction": 0.125, "validation_nll": 10.201853262566205, "elapsed_seconds": 64.96625997405499}
+{"update": 288, "block_visits": 9290, "accepted_targets": 66, "validation_resolved_fraction": 0.125, "validation_nll": 9.842688239817521, "elapsed_seconds": 72.65419814304914}
+{"update": 320, "block_visits": 10323, "accepted_targets": 72, "validation_resolved_fraction": 0.125, "validation_nll": 9.792348007539218, "elapsed_seconds": 80.46547336905496}
+{"update": 352, "block_visits": 11355, "accepted_targets": 77, "validation_resolved_fraction": 0.125, "validation_nll": 9.827833433094279, "elapsed_seconds": 88.1861115960055}
+{"update": 384, "block_visits": 12389, "accepted_targets": 84, "validation_resolved_fraction": 0.125, "validation_nll": 9.456238135484664, "elapsed_seconds": 95.91615689301398}
+{"update": 416, "block_visits": 13419, "accepted_targets": 88, "validation_resolved_fraction": 0.125, "validation_nll": 9.444102080300269, "elapsed_seconds": 103.69294020201778}
+{"update": 448, "block_visits": 14450, "accepted_targets": 97, "validation_resolved_fraction": 0.125, "validation_nll": 9.363646437297813, "elapsed_seconds": 111.40967184404144}
+{"update": 476, "block_visits": 15338, "accepted_targets": 108, "validation_resolved_fraction": 0.125, "validation_nll": 9.367319542499402, "elapsed_seconds": 118.4749653940089}

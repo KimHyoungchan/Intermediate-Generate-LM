@@ -1,0 +1,144 @@
+{
+  "config_hash": "098b7243670b655709ad333f317296466258e00eb361c849afd3828bc5a084cb",
+  "routed_source_hash": "60393ab5acf22a3d6e58cbea0903ca7c17f929fc3c1a2d67fb7a5d27b4852265",
+  "training_revision_source_hash": "464b24b3f4c4c0ca2fa6bfb46abbe30ba6a9297abc3986f4bd15060d3f7e0810",
+  "parallel_training_source_hash": "a2684a0f3ba7e650b809accdb4d6ab67dd0b2c40ef564745a00930145ab41fdb",
+  "device": {
+    "physical_index": 1,
+    "uuid": "GPU-6068f209-96d6-139d-80fb-7db74591f8b4",
+    "logical_device": "cuda:0"
+  },
+  "devices": [
+    {
+      "physical_index": 1,
+      "uuid": "GPU-6068f209-96d6-139d-80fb-7db74591f8b4",
+      "logical_device": "cuda:0"
+    },
+    {
+      "physical_index": 2,
+      "uuid": "GPU-4f8fb1fe-e7c5-aad3-6f94-a16bee1178a0",
+      "logical_device": "cuda:0"
+    },
+    {
+      "physical_index": 3,
+      "uuid": "GPU-760bf631-f8cc-ccc4-3350-5f6d4379dbe5",
+      "logical_device": "cuda:0"
+    }
+  ],
+  "world_size": 3,
+  "workers": [
+    {
+      "rank": 0,
+      "device": {
+        "physical_index": 1,
+        "uuid": "GPU-6068f209-96d6-139d-80fb-7db74591f8b4",
+        "logical_device": "cuda:0"
+      },
+      "processed_targets": 18,
+      "episodes": 6,
+      "visited_blocks": 482,
+      "unforced_hits": 5,
+      "forced_targets": 13,
+      "final_parameter_hash": "84e08790fb7e77299768d559c5513a99c15b90e47c48aa5bc1eb52ff15b10415",
+      "coverage_sha256": "4def31e9c02d812587740198ea478c3e25532e6223e3763719e669285a1e0d3e",
+      "peak_cuda_allocated_bytes": 15415740416,
+      "trace_sha256": "6f6b62ff42e3bce29daac62f8a8f561e3cca20933dcbac1b62bec66101e6f187"
+    },
+    {
+      "rank": 1,
+      "device": {
+        "physical_index": 2,
+        "uuid": "GPU-4f8fb1fe-e7c5-aad3-6f94-a16bee1178a0",
+        "logical_device": "cuda:0"
+      },
+      "processed_targets": 12,
+      "episodes": 4,
+      "visited_blocks": 338,
+      "unforced_hits": 4,
+      "forced_targets": 8,
+      "final_parameter_hash": "84e08790fb7e77299768d559c5513a99c15b90e47c48aa5bc1eb52ff15b10415",
+      "coverage_sha256": "054ec5ae12c8f3160bd128786cb8ed1042141ae0182071f1b3d762585c1255f0",
+      "peak_cuda_allocated_bytes": 15405337600,
+      "trace_sha256": "b3be6cd42ae16eb486c080da1d1fd11cfeb517ede04d5323c547394901f89ec6"
+    },
+    {
+      "rank": 2,
+      "device": {
+        "physical_index": 3,
+        "uuid": "GPU-760bf631-f8cc-ccc4-3350-5f6d4379dbe5",
+        "logical_device": "cuda:0"
+      },
+      "processed_targets": 12,
+      "episodes": 4,
+      "visited_blocks": 314,
+      "unforced_hits": 3,
+      "forced_targets": 9,
+      "final_parameter_hash": "84e08790fb7e77299768d559c5513a99c15b90e47c48aa5bc1eb52ff15b10415",
+      "coverage_sha256": "2207d1136621d66a2eee2677d74177202049fa10d14dbea86c971a5d7ff5dcdb",
+      "peak_cuda_allocated_bytes": 15404514816,
+      "trace_sha256": "1a46899bc20662adc0bcf645f17943ccb4f0677fbd1bbb6f8095a08148670259"
+    }
+  ],
+  "replica_parameters_identical": true,
+  "initial_parameter_hash": "a43da8f6833036a492e7c6ee163365fda8b4f667221be4454f3c474e9be53289",
+  "updates": 3,
+  "selected_update": 3,
+  "epochs": 2,
+  "requested_training_targets": 42,
+  "processed_training_targets": 42,
+  "unreached_training_targets": 0,
+  "unforced_training_hits": 12,
+  "forced_training_targets": 30,
+  "visited_blocks": 1134,
+  "processed_training_episodes": 14,
+  "frozen_hash": "a5e74e208bfa22a0f03785aa67870f45fcd5bfe0a50455d28c9866a14fd6d564",
+  "frozen_weights_unchanged": true,
+  "checkpoint_sha256": "a9c2b88045293f6ff3f7d9aabac884224db2925f2edbb57488fc4871713e6fda",
+  "component_parameter_change_l2": {
+    "token_entry_and_memory": 0.09691803814210821,
+    "exit": 0.07203005077042314,
+    "transformer_lora": 0.2644080586553267,
+    "wrap": 0.0456425432066376
+  },
+  "train_data_sha256": "ea099020455887fec775faa92ef2862f2c072ba14acb368f75ed753e42c94d79",
+  "initial_validation": {
+    "requested_targets": 6,
+    "processed_targets": 6,
+    "unreached_targets": 0,
+    "unforced_hits": 2,
+    "forced_targets": 4,
+    "unforced_hit_fraction": 0.3333333333333333,
+    "all_correct_without_forcing_fraction": 0.0,
+    "visited_blocks": 169,
+    "mean_ce_per_visited_block": 13.453843321320573,
+    "label_mode": "next_token",
+    "iteration_policy": "global",
+    "teacher_forcing": "After iteration exhaustion, supply the correct next input and continue at layer 1",
+    "completion_semantics": "Processing all labels is not counted as correct free generation"
+  },
+  "selected_validation": {
+    "requested_targets": 6,
+    "processed_targets": 6,
+    "unreached_targets": 0,
+    "unforced_hits": 2,
+    "forced_targets": 4,
+    "unforced_hit_fraction": 0.3333333333333333,
+    "all_correct_without_forcing_fraction": 0.0,
+    "visited_blocks": 169,
+    "mean_ce_per_visited_block": 13.291159167797607,
+    "label_mode": "next_token",
+    "iteration_policy": "global",
+    "teacher_forcing": "After iteration exhaustion, supply the correct next input and continue at layer 1",
+    "completion_semantics": "Processing all labels is not counted as correct free generation"
+  },
+  "bptt_visits": 0,
+  "full_episode_bptt": true,
+  "label_mode": "next_token",
+  "iteration_policy": "global",
+  "accumulation_visits_global": 256,
+  "gradient_reduction": "sum rank CE gradients / sum rank visited-head counts; clip after reduction",
+  "trace_training": true,
+  "elapsed_seconds": 19.967792062961962,
+  "peak_cuda_allocated_bytes": 15415740416,
+  "training_method": "synchronous data parallel; token-index iteration with teacher-forced continuation"
+}

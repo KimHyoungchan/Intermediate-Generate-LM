@@ -1,0 +1,5 @@
+condition,episode_id,document_id,outcome,stop_reason,requested_targets,resolved_targets,unreached_targets,censored_targets,observed_wraps,wraps_to_completion,completion_wraps_lower_bound,max_observed_wraps_for_one_token,visited_blocks,confirmed_same_layer_injections,elapsed_seconds,last_target_index,repeated_state_observed
+before,95f9598f535c204d09e32317,test:40:a9bb181bc1f3,censored,wall_time_watchdog,8,1,6,1,132,,132,132,3184,1,5.0011496839579195,1,False
+before,4dbe23279f6eca81f9539201,test:23:eeeab0744729,censored,wall_time_watchdog,8,0,7,1,140,,140,140,3374,0,5.000323390006088,0,False
+after,95f9598f535c204d09e32317,test:40:a9bb181bc1f3,censored,wall_time_watchdog,8,1,6,1,141,,141,141,3409,1,5.00053531100275,1,False
+after,4dbe23279f6eca81f9539201,test:23:eeeab0744729,censored,wall_time_watchdog,8,0,7,1,142,,142,142,3423,0,5.000138528004754,0,False

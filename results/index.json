@@ -1,0 +1,156 @@
+[
+  {
+    "run": "pilot_05b",
+    "category": "experiment",
+    "has_training_completion": true,
+    "has_comparison": true,
+    "files": 16
+  },
+  {
+    "run": "main_7b",
+    "category": "experiment",
+    "has_training_completion": true,
+    "has_comparison": true,
+    "files": 15
+  },
+  {
+    "run": "routed_05b",
+    "category": "experiment",
+    "has_training_completion": true,
+    "has_comparison": true,
+    "files": 12
+  },
+  {
+    "run": "routed_05b_v96",
+    "category": "experiment",
+    "has_training_completion": true,
+    "has_comparison": true,
+    "files": 12
+  },
+  {
+    "run": "routed_7b_v96",
+    "category": "experiment",
+    "has_training_completion": true,
+    "has_comparison": true,
+    "files": 12
+  },
+  {
+    "run": "training_revision_05b",
+    "category": "experiment",
+    "has_training_completion": true,
+    "has_comparison": true,
+    "files": 12
+  },
+  {
+    "run": "training_revision_7b",
+    "category": "experiment",
+    "has_training_completion": true,
+    "has_comparison": true,
+    "files": 12
+  },
+  {
+    "run": "training_parallel_05b",
+    "category": "experiment",
+    "has_training_completion": true,
+    "has_comparison": true,
+    "files": 16
+  },
+  {
+    "run": "loop_pilot_05b_wait",
+    "category": "experiment",
+    "has_training_completion": false,
+    "has_comparison": false,
+    "files": 8
+  },
+  {
+    "run": "training_revision_05b/strict_loop_check",
+    "category": "experiment",
+    "has_training_completion": false,
+    "has_comparison": false,
+    "files": 11
+  },
+  {
+    "run": "training_revision_7b/strict_loop_check",
+    "category": "experiment",
+    "has_training_completion": false,
+    "has_comparison": false,
+    "files": 11
+  },
+  {
+    "run": "smoke_05b",
+    "category": "implementation_check",
+    "has_training_completion": true,
+    "has_comparison": true,
+    "files": 11
+  },
+  {
+    "run": "smoke_7b",
+    "category": "implementation_check",
+    "has_training_completion": true,
+    "has_comparison": true,
+    "files": 11
+  },
+  {
+    "run": "routed_smoke_05b",
+    "category": "implementation_check",
+    "has_training_completion": true,
+    "has_comparison": true,
+    "files": 8
+  },
+  {
+    "run": "routed_smoke_7b",
+    "category": "implementation_check",
+    "has_training_completion": true,
+    "has_comparison": true,
+    "files": 8
+  },
+  {
+    "run": "loop_pilot_smoke",
+    "category": "implementation_check",
+    "has_training_completion": false,
+    "has_comparison": false,
+    "files": 6
+  },
+  {
+    "run": "loop_pilot_smoke_7b",
+    "category": "implementation_check",
+    "has_training_completion": false,
+    "has_comparison": false,
+    "files": 6
+  },
+  {
+    "run": "training_parallel_smoke",
+    "category": "implementation_check",
+    "has_training_completion": true,
+    "has_comparison": true,
+    "files": 12
+  },
+  {
+    "run": "training_parallel_smoke_7b",
+    "category": "implementation_check",
+    "has_training_completion": true,
+    "has_comparison": true,
+    "files": 12
+  },
+  {
+    "run": "training_parallel_7b",
+    "category": "prepared_only",
+    "has_training_completion": false,
+    "has_comparison": false,
+    "files": 3
+  },
+  {
+    "run": "training_revision_check_input_per_token",
+    "category": "historical_objective_check_report_only",
+    "has_training_completion": false,
+    "has_comparison": true,
+    "files": 1
+  },
+  {
+    "run": "training_revision_check_next_global",
+    "category": "historical_objective_check_report_only",
+    "has_training_completion": false,
+    "has_comparison": true,
+    "files": 1
+  }
+]

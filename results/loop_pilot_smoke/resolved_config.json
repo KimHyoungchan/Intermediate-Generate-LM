@@ -1,0 +1,21 @@
+{
+  "config_hash": "f22320c9ebbf26b82d505226e733aa2465568b980233e5164f6b7384ddcd2f44",
+  "loop_pilot_source_hash": "bb9a705f2db2c20d79c390e59414c6b2c267ab25adcab88753b52ec6d7da309f",
+  "config": {
+    "source_experiment_config": "configs/routed_05b_v96.yaml",
+    "output_dir": "runs/loop_pilot_smoke",
+    "episodes": 2,
+    "max_seconds_per_episode": 5,
+    "max_total_visits_per_episode": 0,
+    "log_every_wraps": 32,
+    "observe_repeated_states": true
+  },
+  "selection": {
+    "episode_ids": [
+      "95f9598f535c204d09e32317",
+      "4dbe23279f6eca81f9539201"
+    ],
+    "test_sha256": "0dd03bbac17444c7d00cb52ad96f05566b677f56cad8cdeb1a3b8bbf35ce76fc",
+    "targets_sha256": "b6601ac7d79b0c99beba146b88a29cd7967c81d03aaa5b0b4f17afea7beb8762"
+  }
+}

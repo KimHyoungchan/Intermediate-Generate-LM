@@ -1,0 +1,22 @@
+{
+  "config_hash": "b97577cff27899309ea90c9acd395ffb1f0e0d207568de7b320a9a5dee215639",
+  "source_hash": "2edfdde4a283ae807163f240d5008d2391e17b31c14a39d4a55adc0d8c5e19e3",
+  "model_id": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+  "tokens": 128,
+  "documents": 1,
+  "transitions": {
+    "both_hit": 63,
+    "no_hit_to_hit": 1,
+    "hit_to_no_hit": 3,
+    "neither_hit": 61,
+    "common_hit_depth_delta": -0.9682539682539683
+  },
+  "backbone_sha256": "e30379bcc709e5b0f7b56517f6dfd221893d8d7ac841b185df9e79b05dbb4051",
+  "evaluation_data_sha256": "2984e230fdcdd84cd42ed425107913802accc17e38f7c1228ee9fcec4c01c107",
+  "before_summary_sha256": "5b3ca40dc25f9e8f355756f9404a5f2ebc33389de55b510a729c258771b4a80e",
+  "after_summary_sha256": "68819ce63fb90f235661871fc5485540dbe455e60bf2be551d82cec26f4ff32b",
+  "checkpoint_sha256": "e81ca8d3f5e631312cf15d52155c54df8415e7c68f0484e2a9c974115a0db24d",
+  "bootstrap_unit": "document",
+  "delta_direction": "after minus before"
+}

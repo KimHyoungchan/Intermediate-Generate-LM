@@ -1,0 +1,4 @@
+{"update": 8, "block_visits": 129, "accepted_targets": 2, "validation_resolved_fraction": 0.0, "validation_nll": 14.151328419645628, "elapsed_seconds": 1.6613370269769803}
+{"update": 16, "block_visits": 258, "accepted_targets": 3, "validation_resolved_fraction": 0.0, "validation_nll": 14.126061466832956, "elapsed_seconds": 2.481408029969316}
+{"update": 24, "block_visits": 389, "accepted_targets": 3, "validation_resolved_fraction": 0.0, "validation_nll": 14.018561384330193, "elapsed_seconds": 3.2875045969849452}
+{"update": 28, "block_visits": 449, "accepted_targets": 3, "validation_resolved_fraction": 0.0, "validation_nll": 14.012806989252567, "elapsed_seconds": 3.84285810100846}
